@@ -1,0 +1,9 @@
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\config\DefaultFeignConfig.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\client\PayClient.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\client\TradeClient.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\client\ItemClient.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\fallback\ItemClientFallbackFactory.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\dto\ItemDTO.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\client\CartClient.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\dto\OrderDetailDTO.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\hm-api\src\main\java\com\hmall\api\client\UserClient.java

@@ -1,0 +1,13 @@
+server:
+  port: 8081
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp连接池支持
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
+hm:
+  db:
+    database: hm-item
+  swagger:
+    package: com.hmall.item.controller
+    title: "黑马商城商品管理接口文档"

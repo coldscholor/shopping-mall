@@ -1,0 +1,16 @@
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\domain\po\OrderLogistics.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\mapper\OrderMapper.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\service\IOrderService.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\service\IOrderDetailService.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\service\IOrderLogisticsService.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\TradeApplication.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\domain\po\Order.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\domain\dto\OrderFormDTO.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\controller\OrderController.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\service\impl\OrderDetailServiceImpl.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\service\impl\OrderLogisticsServiceImpl.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\mapper\OrderLogisticsMapper.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\service\impl\OrderServiceImpl.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\domain\po\OrderDetail.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\domain\vo\OrderVO.java
+D:\BaiduNetdiskDownload\SpringCloud\day02-Docker\资料\hmall\trade-service\src\main\java\com\hmall\trade\mapper\OrderDetailMapper.java

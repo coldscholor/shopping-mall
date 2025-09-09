@@ -1,0 +1,13 @@
+server:
+  port: 8086
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp连接池支持
+  sentinel:
+    enabled: true
+hm:
+  db:
+    database: hm-pay
+  swagger:
+    package: com.hmall.pay.controller
+    title: "黑马商城支付管理接口文档"

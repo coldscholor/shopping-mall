@@ -1,0 +1,19 @@
+server:
+  port: 8085
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp连接池支持
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
+hm:
+  db:
+    database: hm-trade
+  swagger:
+    package: com.hmall.trade.controller
+    title: "黑马商城订单管理接口文档"
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true

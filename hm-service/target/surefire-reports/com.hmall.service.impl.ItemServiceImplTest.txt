@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: com.hmall.service.impl.ItemServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.633 s <<< FAILURE! - in com.hmall.service.impl.ItemServiceImplTest
+deductStock  Time elapsed: 7.908 s  <<< ERROR!
+com.hmall.common.exception.BizIllegalException: 更新库存异常，可能是库存不足!
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+Caused by: org.mybatis.spring.MyBatisSystemException: 
+nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### The error may exist in com/hmall/mapper/ItemMapper.java (best guess)
+### The error may involve com.hmall.mapper.ItemMapper.updateStock
+### The error occurred while executing an update
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### The error may exist in com/hmall/mapper/ItemMapper.java (best guess)
+### The error may involve com.hmall.mapper.ItemMapper.updateStock
+### The error occurred while executing an update
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+Caused by: java.net.UnknownHostException: mysql
+	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
+
