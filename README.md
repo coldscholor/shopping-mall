@@ -122,7 +122,7 @@ graph TB
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/your-username/cloudmall.git
+   git clone https://github.com/coldscholor/cloudmall.git
    cd cloudmall
    ```
 
@@ -141,7 +141,7 @@ graph TB
    hm:
      db:
        host: localhost  # 数据库地址
-       pw: your_password # 数据库密码
+       pw: 123456 # 数据库密码
    ```
 
 5. **编译项目**
@@ -290,9 +290,8 @@ graph TB
 
 ## 📞 联系我们
 
-- 项目地址：https://github.com/your-username/cloudmall
-- 问题反馈：https://github.com/your-username/cloudmall/issues
-- 邮箱：your-email@example.com
+- 项目地址：https://github.com/coldscholor/cloudmall
+- 邮箱：coldscholor@163.com
 
 ---
 
